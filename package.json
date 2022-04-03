@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ."
+    "start": "node .",
+    "dev": "nodemon ."
   },
   "repository": {
     "type": "git",
@@ -16,11 +17,16 @@
   "bugs": {
     "url": "https://github.com/heyhammadhere/kashhela/issues"
   },
-  "homepage": "https://github.com/heyhammadhere/kashhela#readme",
+  "homepage": "https://github.com/heyhammadhere/kashhela",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "mongoose": "^6.2.9",
+    "morgan": "^1.10.0",
+    "volleyball": "^1.5.1"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.15"
   }
 }
