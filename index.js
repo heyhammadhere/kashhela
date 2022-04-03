@@ -5,7 +5,7 @@ const app = express();
 const mongoose = require("mongoose");
 const morgan = require("morgan");
 const volleyball = require("volleyball");
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000;
 
 // Routes
 const authRoute = require("./routes/auth");
